@@ -165,7 +165,19 @@ extension TrackListViewController {
                 self.tracksCollectionView.reloadData()
             } else {
                 // Should handle failure case here
-                // Maybe show an alert controller
+                // Right now just showing an alert controller
+                // Should handle appropriately according to API response
+                
+                dispatch_async(dispatch_get_main_queue(), { 
+                    let message = "Couldn't load search results, please try again"
+                    
+                    let alertController = UIAlertController(title: "Error", message: message, preferredStyle: .Alert)
+                    let okayAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
+                    alertController.addAction(okayAction)
+                    
+                    self.presentViewController(alertController, animated: true, completion: nil)
+
+                })
             }
         }
     }
