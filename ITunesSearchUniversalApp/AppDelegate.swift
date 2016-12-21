@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Setting maximum cache size to be 100 Mb
+        Constants.artworkCache.totalCostLimit = 100*1024*1024
         return true
     }
 
