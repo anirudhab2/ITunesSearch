@@ -5,9 +5,9 @@ A Universal app that uses iTunes search API to fetch song results and show them 
 The code is wrritten in Swift 2.2 and uses CocoaPods as dependency manager. 
 
 ## Third Party Libraries
-Alamofire: https://github.com/Alamofire/Alamofire
-SwiftyJSON: https://github.com/SwiftyJSON/SwiftyJSON
-JGProgressHUD: https://github.com/JonasGessner/JGProgressHUD
+* Alamofire: https://github.com/Alamofire/Alamofire
+* SwiftyJSON: https://github.com/SwiftyJSON/SwiftyJSON
+* JGProgressHUD: https://github.com/JonasGessner/JGProgressHUD
 
 ## Usage
 Clone the project, open terminal and run "pod init" from the project directory. This will create a Podfile in the directory. Open the Podfile and edit as
