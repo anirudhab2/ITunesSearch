@@ -94,19 +94,59 @@
 			children = (
 				8F21713F1E0A7FED0075510F /* AppDelegate.swift */,
 				8F2171431E0A7FED0075510F /* Main.storyboard */,
-				8F1CFBEE1E0A9A4400B18C97 /* TrackListViewController.swift */,
-				8F707DC51E0B19610029205B /* TrackDetailsViewController.swift */,
-				8F1CFBF01E0AA2FA00B18C97 /* TracksCollectionViewCell.swift */,
-				8F707DC31E0B01EE0029205B /* TracksCollectionHeaderView.swift */,
-				8F2171511E0A80120075510F /* Track.swift */,
-				8F21715B1E0A87790075510F /* Constants.swift */,
-				8F21715D1E0A8E720075510F /* HttpCalls.swift */,
-				8F2171531E0A83F70075510F /* SupportingFunctions.swift */,
+				8FCC2E231E0B4715007409BC /* ViewControllers */,
+				8FCC2E251E0B4736007409BC /* Views */,
+				8FCC2E241E0B472D007409BC /* Model */,
+				8FCC2E271E0B475D007409BC /* Network */,
+				8FCC2E261E0B4747007409BC /* Utilities */,
 				8F2171461E0A7FED0075510F /* Assets.xcassets */,
 				8F2171481E0A7FED0075510F /* LaunchScreen.storyboard */,
 				8F21714B1E0A7FED0075510F /* Info.plist */,
 			);
 			path = ITunesSearchUniversalApp;
+			sourceTree = "<group>";
+		};
+		8FCC2E231E0B4715007409BC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F1CFBEE1E0A9A4400B18C97 /* TrackListViewController.swift */,
+				8F707DC51E0B19610029205B /* TrackDetailsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8FCC2E241E0B472D007409BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F2171511E0A80120075510F /* Track.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8FCC2E251E0B4736007409BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F1CFBF01E0AA2FA00B18C97 /* TracksCollectionViewCell.swift */,
+				8F707DC31E0B01EE0029205B /* TracksCollectionHeaderView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8FCC2E261E0B4747007409BC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8F21715B1E0A87790075510F /* Constants.swift */,
+				8F2171531E0A83F70075510F /* SupportingFunctions.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		8FCC2E271E0B475D007409BC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8F21715D1E0A8E720075510F /* HttpCalls.swift */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
