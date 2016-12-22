@@ -33,6 +33,7 @@ class TrackListViewController: UIViewController {
         searchBar.delegate = self
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(self.viewTapped))
+        tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
     }
     
